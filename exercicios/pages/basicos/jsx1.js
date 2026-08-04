@@ -1,4 +1,4 @@
-export default function jsx1Diferente() {
+export default function jsx1() {
     return (
         <div>
             <h1>JSX #01</h1>
