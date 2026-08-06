@@ -24,3 +24,11 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.azul {
+  background-color: #1e40af;
+}
+
+.vermelho {
+  background-color: #dc2626;
+}
