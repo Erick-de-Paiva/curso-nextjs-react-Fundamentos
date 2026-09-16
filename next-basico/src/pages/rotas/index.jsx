@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
-export default function rotas() {
+export default function Rotas() {
     const router = useRouter()
 
     function navegacaoComParams() {
@@ -18,10 +18,10 @@ export default function rotas() {
         <div>
             <h1>Rotas Index</h1>
             <ul>
-                <Link href="/rotas/params?id=7&nome=Erick">
+                <Link href="/rotas/params?id=7&nome=Erick" passHref>
                     <li>Params</li>
                 </Link>
-                <Link href="/rotas/123/buscar">
+                <Link href="/rotas/123/buscar" passHref>
                     <li>Buscar</li>
                 </Link>
             </ul>
