@@ -9,9 +9,9 @@ export function getStaticProps() {
 
 export default function Estatico3(props) {
     return (
-    <div>
-        <h1>Estático #03</h1>
-        <h2>{props.numero}</h2>
-    </div>
+        <div>
+            <h1>Estático #03</h1>
+            <h2>{props.numero}</h2>
+        </div>
   )
 }
